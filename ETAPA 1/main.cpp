@@ -8,7 +8,7 @@ const int leds[4] = {13, 14, 26, 33};
 // Botões
 const int botoes[4] = {12, 27, 25, 32};
 
-// Buzzer (GPIO 35 NÃO FUNCIONA como saída)
+
 const int buzzer = 23;
 
 // Frequências
