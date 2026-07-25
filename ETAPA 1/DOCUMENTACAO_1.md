@@ -64,7 +64,7 @@ Para a montagem física do circuito, foram especificados os seguintes componente
 
 ### Diagrama do Circuito
 
-![Esquema do Circuito ESP32 Genius](33.jpg)
+![Esquema do Circuito ESP32 Genius](33.png)
 
 > **Nota de Validação Técnica:** Na ilustração gráfica do diagrama acima, alguns rótulos visuais de pinagem foram simplificados conceitualmente. Para a **montagem prática e compilação do software**, adote rigorosamente o mapeamento de pinos da tabela oficial abaixo.
 
