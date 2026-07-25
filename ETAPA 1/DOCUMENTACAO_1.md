@@ -1,5 +1,4 @@
 
-```markdown
 # 🎮 Documentação Técnica Completa: Jogo da Memória "Gênius" - ESP32
 
 **Autores:** Felipe Torres Marinho Barros e Arthur Franco Mendes Gomes  
@@ -182,10 +181,4 @@ Tocar Animação de Início -> Sortear 1ª Cor da Sequência
 │                       Pausa de 1000ms
 └──────────────────────────────────────┘
 
-```
 
-```
-
-```
-
-```
