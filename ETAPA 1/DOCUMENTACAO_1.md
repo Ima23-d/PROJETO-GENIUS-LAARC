@@ -1,4 +1,4 @@
-# 🎮 Documentação Técnica Completa: Jogo da Memória "Gênius" - ESP32
+# Documentação Técnica Completa: Jogo da Memória "Gênius" - ESP32
 
 **Autores:** Felipe Torres Marinho Barros e Arthur Franco Mendes Gomes  
 **Projeto:** Sistema Embarcado Lúdico com ESP32 (LAARC)
