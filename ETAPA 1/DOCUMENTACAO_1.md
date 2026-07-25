@@ -1,7 +1,7 @@
-# Documentação Técnica Completa: Jogo da Memória "Gênius" - ESP32
+# Documentação Etapa 1: Jogo da Memória "Gênius" - ESP32
 
 **Autores:** Felipe Torres Marinho Barros e Arthur Franco Mendes Gomes  
-**Projeto:** Sistema Embarcado Lúdico com ESP32 (LAARC)
+**Projeto:** Gênius Etapa 1
 
 ---
 
@@ -9,7 +9,7 @@
 
 O desenvolvimento de habilidades cognitivas, como memória de curto prazo, foco e reflexo rápido, é um desafio constante em um mundo repleto de estímulos dispersos. No âmbito educacional e de entretenimento, há uma demanda contínua por ferramentas que unam o aprendizado prático de eletrônica e programação ao desenvolvimento dessas capacidades de forma lúdica.
 
-O problema central deste projeto consiste em projetar e construir um sistema embarcado de baixo custo, intuitivo e interativo, capaz de desafiar e exercitar a memória sequencial do usuário por meio de estímulos visuais e sonoros coordenados.
+O problema central deste projeto consiste em projetar e construir um sistema de baixo custo, intuitivo e interativo, capaz de desafiar e exercitar a memória sequencial do usuário por meio de estímulos visuais e sonoros coordenados.
 
 ---
 
@@ -46,8 +46,8 @@ Para a montagem física do circuito, foram especificados os seguintes componente
 
 | Item | Componente | Qtd. | Especificação Técnica | Função Detalhada no Circuito |
 | :---: | :--- | :---: | :--- | :--- |
-| **1** | **ESP32 DevKit v1** | 1 | Microcontrolador 32-bits, 240MHz, 30 pino GPIOs | Cérebro do sistema: processa a lógica do jogo, lê os botões e controla os LEDs e Buzzer. |
-| **2** | **Protoboard (Breadboard)** | 1 | 830 pontos com barramentos de alimentação | Base para montagem do circuito sem necessidade de solda. |
+| **1** | **ESP32** | 1 | Microcontrolador 32-bits, 240MHz, 30 pino GPIOs | Cérebro do sistema: processa a lógica do jogo, lê os botões e controla os LEDs e Buzzer. |
+| **2** | **Protoboard** | 1 | 830 pontos com barramentos de alimentação | Base para montagem do circuito sem necessidade de solda. |
 | **3** | **LED Difuso 5mm Verde** | 1 | Tensão de operação: ~2.0V, Corrente: 20mA | Indicador luminoso da cor Verde (Tom Dó / 262 Hz). |
 | **4** | **LED Difuso 5mm Vermelho** | 1 | Tensão de operação: ~2.0V, Corrente: 20mA | Indicador luminoso da cor Vermelha (Tom Mi / 330 Hz). |
 | **5** | **LED Difuso 5mm Amarelo** | 1 | Tensão de operação: ~2.0V, Corrente: 20mA | Indicador luminoso da cor Amarela (Tom Sol / 392 Hz). |
