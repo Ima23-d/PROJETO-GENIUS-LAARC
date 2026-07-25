@@ -1,4 +1,4 @@
-![logo](logo.png)
+
 # Documentação Etapa 1: Jogo da Memória "Gênius" - ESP32
 
 **Autores:** Felipe Torres Marinho Barros e Arthur Franco Mendes Gomes  
