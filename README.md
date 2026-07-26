@@ -1,6 +1,5 @@
 ![logo](logo.png)
-
-- FOTOS DO PROJETO:
+# FOTOS DO PROJETO:
 # HARDWARE
 - Foto 1
 ![foto1](foto1.jpeg)
