@@ -2,4 +2,4 @@
 
 # FOTOS DO PROJETO:
 # Foto 1
-![foto1](foto_1.jpeg)
+![foto1](foto1.jpeg)
