@@ -85,39 +85,4 @@ Para a montagem física do circuito, foram especificados os seguintes componente
 2. **Botões:** Um terminal do botão conecta-se diretamente à porta GPIO atribuída (25, 27, 32 ou 12). O outro terminal conecta-se ao **GND**. Graças ao modo `INPUT_PULLUP`, quando o botão está solto a porta lê `HIGH`; quando pressionado, lê `LOW`.
 3. **Buzzer:** O pino positivo (+) conecta-se na **GPIO 23** e o negativo (-) no barramento **GND**.
 
----
 
-## 6. Arquitetura do Sistema e Máquina de Estados Finitos (FSM)
-
-O comportamento do jogo é modelado através de uma **Máquina de Estados Finitos (FSM)** composta por 5 estados fundamentais:
-
-```text
-               +-------------------+
-               |  1. ESTADO_INIT   |
-               | (Config / Vinheta)|
-               +---------+---------+
-                         |
-                         v
-               +-------------------+
-               | 2. MOSTRAR_SEQ    | <-------------------+
-               | (ESP32 Pisca/Toca)|                     |
-               +---------+---------+                     |
-                         |                               |
-                         v                               |
-               +-------------------+                     |
-               | 3. AGUARDAR_JOGADA|                     |
-               | (Leitura Botões)  |                     |
-               +---------+---------+                     |
-                         |                               |
-                    [Validar]                            |
-                     /     \                             |
-               (Correto)  (Incorreto)                    |
-                  /           \                          |
-                 v             v                         |
-       +---------------+  +-------------------+          |
-       | 4. PROX_NIVEL |  | 5. GAME_OVER      |          |
-       | (Nivel++ /    |  | (Animação Erro /  |          |
-       |  Nova Cor)    |  |  Reset p/ Nivel 1)|          |
-       +-------+-------+  +---------+---------+          |
-               |                    |                    |
-               +--------------------+--------------------+
